@@ -4,11 +4,13 @@ body {
 
 h1 {
     color: blue;
+    text-align: center;
 }
 
 p {
     color: rgb(150, 75, 200);
     font: 14px;
+    text-align: center;
 }
 
 label {
