@@ -1,9 +1,14 @@
+body {
+    font-family: Tahoma;
+}
+
 h1 {
     color: blue;
 }
 
 p {
     color: rgb(150, 75, 200);
+    font: 14px;
 }
 
 label {
