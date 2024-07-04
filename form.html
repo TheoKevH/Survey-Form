@@ -6,19 +6,14 @@
         <link rel="stylesheet" href="styles.css"/>
     </head>
     <body>
-        <h1>Survey Form</h1>
-        <p>Please fill out this form with the required information</p>
-        <label>Enter your full name: 
-            <input type="text" required/>
-        </label>
-        <div>
-            <label>Choose one
-                <select>
-                    <option>Hello</option>
-                    <option>Hi</option>
-                    <option>Good Morning</option>
-                </select>
-            </label>
-        </div>
+        <h1 id="title">Are YOU Keegan?</h1>
+        <p id="description">This form checks whether or not you are Keegan. Using generative AI, we will use the answers from this form to classify if you are the real Keegan, or not...</p>
+        <form id="survey-form">
+            <fieldset>
+                <label for="name">Enter your name: 
+                    <input required type="text" id="name">
+                </label>
+            </fieldset>
+        </form>
     </body>
 </html>
