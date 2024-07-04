@@ -15,7 +15,7 @@
                     <input required type="text" id="name" placeholder="Kee Gan">
                 </label>
                 <label for="email" id="email-label">Enter your E-Mail: 
-                    <input required type="email" id="email" placeholder="keegan12345@snailmail.com">
+                    <input required type="email" id="email" placeholder="keegan@snailmail.com">
                 </label>
             </fieldset>
             <fieldset>
@@ -23,7 +23,19 @@
                 <label for="number" id="number-label">Enter a number from 1 to 10: 
                     <input required type="number" id="number" min="1" max="10" placeholder="1">
                 </label>
-                <label for="radio-button" name="radio-button"></label>
+                <label>Enter your gender: </label>
+                <label for="radio-button" name="radio-button"><input checked type="radio" id="male" name="gender" value="male"> Male</label>
+                <label for="radio-button" name="radio-button"><input type="radio" id="female" name="gender" value="female"> Female</label>
+                <label for="radio-button" name="radio-button"><input type="radio" id="none" name="gender" value="none"> Prefer not to say</label>
+                <label for="verif">Do you know Keegan?
+                    <select id="dropdown" name="dropdown">
+                        <option value="">(Select one)</option>
+                        <option value="1">Yes, I know him</option>
+                        <option value="2">No, I don't know him</option>
+                        <option value="3">I'm not sure...</option>
+                        <option value="4">I am HIM!</option>
+                    </select>
+                </label>
             </fieldset>
         </form>
     </body>
