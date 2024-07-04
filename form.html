@@ -12,23 +12,23 @@
             <fieldset>
                 <h3>Personal Info</h3>
                 <label for="name" id="name-label">Enter your name: 
-                    <input required type="text" id="name" placeholder="Kee Gan">
+                    <input required type="text" id="name" placeholder="Kee Gan" class="text-input">
                 </label>
                 <label for="email" id="email-label">Enter your E-Mail: 
-                    <input required type="email" id="email" placeholder="keegan@snailmail.com">
+                    <input required type="email" id="email" placeholder="keegan@snailmail.com" class="text-input">
                 </label>
             </fieldset>
             <fieldset type="addi">
                 <h3>Additional Info</h3>
                 <label for="number" id="number-label">Enter a number from 1 to 10: 
-                    <input required type="number" id="number" min="1" max="10" placeholder="1">
+                    <input required type="number" id="number" min="1" max="10" placeholder="1" class="text-input">
                 </label>
                 <label>Enter your gender: </label>
                 <label for="radio-button" name="radio-button"><input class="inline" checked type="radio" id="male" name="gender" value="male"> Male</label>
                 <label for="radio-button" name="radio-button"><input class="inline" type="radio" id="female" name="gender" value="female"> Female</label>
                 <label for="radio-button" name="radio-button"><input class="inline" type="radio" id="none" name="gender" value="none"> Prefer not to say</label>
                 <label for="verif">Do you know Keegan?
-                    <select id="dropdown" name="dropdown">
+                    <select id="dropdown" name="dropdown" class="text-input">
                         <option value="">(Select one)</option>
                         <option value="1">Yes, I know him</option>
                         <option value="2">No, I don't know him</option>
@@ -61,7 +61,7 @@
                 </label>
             </fieldset>
             <label for="terms-and-conditions">
-                <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I accept the <a href="https://youtu.be/dQw4w9WgXcQ?feature=shared">terms and conditions</a>
+                <input class="inline" id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" /> I accept the <a href="https://youtu.be/dQw4w9WgXcQ?feature=shared" target="_blank"><strong>terms and conditions</strong></a>
             </label>
             <input type="submit" id="submit" value="Submit">
         </form>

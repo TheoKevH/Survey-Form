@@ -19,7 +19,7 @@ h3 {
 }
 
 form {
-    background: rgb(9, 4, 58);
+    background: rgb(23, 16, 90);
     padding: 2.5rem;
     padding-top: 15px;
     margin: 2rem auto;
@@ -40,7 +40,7 @@ input, textarea, select {
 
 fieldset {
     border: none;
-    border-bottom: 3px solid #3b3b4f;
+    border-bottom: 3px solid #81818a;
     padding-bottom: 5%;
 }
 
@@ -58,6 +58,22 @@ label:last-of-type {
 }
 
 input, textarea {
-    background-color: #0a0a23;
+    background-color: #191943;
     border: 2px solid #0a0a23;
+}
+
+input[type="submit"]{
+    display: block;
+    width: 70%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.5rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+    color: white;
+}
+
+a{
+    color: white;
 }
