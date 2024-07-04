@@ -7,7 +7,7 @@
     </head>
     <body>
         <h1 id="title">Are YOU Keegan?</h1>
-        <p id="description">This form checks whether or not you are Keegan. Using generative AI, we will use the answers from this form to classify if you are the real Keegan, or not...</p>
+        <p id="description"><em>This form checks whether or not you are Keegan. Using generative AI, we will use the answers from this form to classify if you are the real Keegan, or not...</em></p>
         <form id="survey-form">
             <fieldset>
                 <h3>Personal Info</h3>
@@ -18,15 +18,15 @@
                     <input required type="email" id="email" placeholder="keegan@snailmail.com">
                 </label>
             </fieldset>
-            <fieldset>
+            <fieldset type="addi">
                 <h3>Additional Info</h3>
                 <label for="number" id="number-label">Enter a number from 1 to 10: 
                     <input required type="number" id="number" min="1" max="10" placeholder="1">
                 </label>
                 <label>Enter your gender: </label>
-                <label for="radio-button" name="radio-button"><input checked type="radio" id="male" name="gender" value="male"> Male</label>
-                <label for="radio-button" name="radio-button"><input type="radio" id="female" name="gender" value="female"> Female</label>
-                <label for="radio-button" name="radio-button"><input type="radio" id="none" name="gender" value="none"> Prefer not to say</label>
+                <label for="radio-button" name="radio-button"><input class="inline" checked type="radio" id="male" name="gender" value="male"> Male</label>
+                <label for="radio-button" name="radio-button"><input class="inline" type="radio" id="female" name="gender" value="female"> Female</label>
+                <label for="radio-button" name="radio-button"><input class="inline" type="radio" id="none" name="gender" value="none"> Prefer not to say</label>
                 <label for="verif">Do you know Keegan?
                     <select id="dropdown" name="dropdown">
                         <option value="">(Select one)</option>
@@ -39,25 +39,25 @@
                 <label>What best describes Keegan? (Check all that apply)
                 </label>
                 <label>
-                    <input type="checkbox" value="1" id="checkbox"> He is cute
+                    <input class="inline" type="checkbox" value="1" id="checkbox"> He is cute
                 </label>
                 <label>
-                    <input type="checkbox" value="2" id="checkbox"> He is NOT cute
+                    <input  class="inline" type="checkbox" value="2" id="checkbox"> He is NOT cute
                 </label>
                 <label>
-                    <input type="checkbox" value="3" id="checkbox"> He is disgusting
+                    <input class="inline" type="checkbox" value="3" id="checkbox"> He is disgusting
                 </label>
                 <label>
-                    <input type="checkbox" value="4" id="checkbox"> He is funny
+                    <input class="inline" type="checkbox" value="4" id="checkbox"> He is funny
                 </label>
                 <label>
-                    <input type="checkbox" value="5" id="checkbox"> He is gay
+                    <input class="inline" type="checkbox" value="5" id="checkbox"> He is gay
                 </label>
             </fieldset>
-            <fieldset>
+            <fieldset type="feedback">
                 <h3>Feedback</h3>
                 <label>Any feedback or comments?
-                    <textarea id="comments" rows="3" cols="30" placeholder="Why is this form so weird??"></textarea>
+                    <textarea id="comments" rows="4" cols="30" placeholder="Why is this form so weird??"></textarea>
                 </label>
             </fieldset>
             <label for="terms-and-conditions">
